@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/stat/stat",
+    "pages/addOrder/addOrder"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#3366CC",
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "简单记账",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#cccccc"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor": "#3366CC",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list":[{
+      "pagePath":"pages/stat/stat",
+      "text":"总览统计",
+      "iconPath":"img/stat.png",
+      "selectedIconPath": "img/selectstat.png"
+    },{
+      "pagePath":"pages/addOrder/addOrder",
+      "text":"添加账单",
+      "iconPath": "img/add.png",
+      "selectedIconPath": "img/selectadd.png"
+    }]
+  }
+}

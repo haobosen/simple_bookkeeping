@@ -1,0 +1,18 @@
+<view class="add_con select_type">
+  <view class="type_con type_pay type_active">支出</view>
+  <view class="type_con type_income">收入</view>
+</view> 
+
+<view class="add_con add_price">
+  <view class="add_title">支出:</view>
+  <input class="add_input" type="number" placeholder='0' placeholder-style="color: #333;"></input>
+</view>
+
+<view class="add_con add_tip">
+  <view class="add_title">备注:</view>
+  <textarea class="add_textarea"></textarea>
+</view>
+
+<view class="add_con add_button">
+  <button class="add_save_btn">完成</button>
+</view>

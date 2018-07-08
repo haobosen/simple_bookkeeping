@@ -1,0 +1,29 @@
+<view class="stat_banner">
+  <view class="stat_data stat_pay">
+    <view class="stat_num">123456</view>
+    <view class="stat_text">总支出</view>
+  </view>
+  <view class="stat_data stat_income">
+    <view class="stat_num">123456</view>
+    <view class="stat_text">总收入</view>
+  </view>
+  <view class="stat_data stat_profit">
+    <view class="stat_num">123456</view>
+    <view class="stat_text">总利润</view>
+  </view>
+</view>
+
+<scroll-view class="stat_scroll_view" scroll-y="true">
+  <view class="stat_list stat_list_pay">
+    <view class="pay_detail pay_txt">支出</view>
+    <view class="pay_detail pay_tip">苹果iphone X</view>
+    <view class="pay_detail pay_date">2018-08-08</view>
+    <view class="pay_detail pay_price">6688</view>
+  </view>
+  <view class="stat_list stat_list_income">
+    <view class="pay_detail pay_txt">收入</view>
+    <view class="pay_detail pay_tip">工资</view>
+    <view class="pay_detail pay_date">2018-08-08</view>
+    <view class="pay_detail pay_price">10000</view>
+  </view>
+</scroll-view>

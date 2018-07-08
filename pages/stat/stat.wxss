@@ -1,0 +1,86 @@
+.stat_banner {
+  width: 100%;
+  height: 100px;
+  background: #3366CC;
+  text-align: center;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 9000; 
+}
+.stat_data {
+  width: 33.333%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.stat_num {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.stat_text {
+  font-size: 16px;
+  font-weight: 300;
+}
+.stat_scroll_view {
+  width: 100%;
+  /* height: 200px; */
+  /* overflow: hidden; */
+
+   margin-top: 100px; 
+}
+.stat_list {
+  width: calc(100% - 5px);
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  z-index: 8900;
+}
+
+.pay_txt {
+  color: #333;
+  font-size: 18px;
+  height: 100%;
+  line-height: 50px;
+  position: absolute;
+  left: 10px;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  z-index: 8900;
+}
+.pay_tip, .pay_date {
+  text-indent: 65px;
+  color: #ccc;
+}
+.pay_tip {
+  margin-top: 8px;
+  font-size: 14px;
+}
+.pay_date {
+font-size: 12px;
+}
+.pay_price {
+  line-height: 50px;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  z-index: 8900;
+}
+
+.stat_list_pay {
+   border-left: 5px solid #ff6666; 
+}
+.stat_list_pay .pay_price {
+  color: #ff6666;
+}
+.stat_list_income {
+  border-left: 5px solid #009999; 
+}
+.stat_list_income .pay_price {
+  color: #009999;
+}
