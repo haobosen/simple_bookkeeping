@@ -1,0 +1,29 @@
+{
+  "status": 1,
+  "data": [
+    {
+      "type": 1,
+      "content": "iphone",
+      "date": "2018-08-08",
+      "price": 6688
+    },
+    {
+      "type": 2,
+      "content": "iphoneX",
+      "date": "2018-08-09",
+      "price": 6688
+    },
+    {
+      "type": 1,
+      "content": "iphone9",
+      "date": "2018-08-10",
+      "price": 6688
+    },
+    {
+      "type": 2,
+      "content": "iphone 8 plus",
+      "date": "2018-08-18",
+      "price": 6688
+    }
+  ]
+}

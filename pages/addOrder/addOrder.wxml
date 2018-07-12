@@ -1,18 +1,35 @@
 <view class="add_con select_type">
-  <view class="type_con type_pay type_active">支出</view>
-  <view class="type_con type_income">收入</view>
+
+
+  <view class="type_con type_pay {{orderType == 1 ? 'type_active' : ''}}" id="type_pay" bindtap='changeType'>支出</view>
+  <view class="type_con type_income {{orderType == 2 ? 'type_active' : ''}}" id="type_income" bindtap='changeType'>收入
+</view>
+<!-- <view wx:elif="orderType == 2">
+  <view class="type_con type_pay" id="type_pay" bindtap='changeType'>支出</view>
+  <view class="type_con type_income type_active" id="type_income" bindtap='changeType'>收入</view>
+</view> -->
+  
 </view> 
 
+
 <view class="add_con add_price">
-  <view class="add_title">支出:</view>
-  <input class="add_input" type="number" placeholder='0' placeholder-style="color: #333;"></input>
+
+  <view wx:if="{{orderType == 1}}">
+    <view class="add_title">支出:</view>
+  </view>
+  <view wx:elif="{{orderType == 2}}">
+    <view class="add_title">收入:</view>
+  </view>
+  
+  <input class="add_input" type="number" placeholder='0' placeholder-style="color: #333;" bindinput='getInput'></input>
+
 </view>
 
 <view class="add_con add_tip">
   <view class="add_title">备注:</view>
-  <textarea class="add_textarea"></textarea>
+  <textarea class="add_textarea" bindblur='getTextarea'></textarea>
 </view>
 
 <view class="add_con add_button">
-  <button class="add_save_btn">完成</button>
+  <button class="add_save_btn" bindtap="saveInfo">完成</button>
 </view>

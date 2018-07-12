@@ -1,0 +1,14 @@
+var payType = function (type) {
+  if (type == 1) {
+    return {
+      className: 'stat_list_pay',
+      name: '支出'
+    }
+  } else if (type == 2) {
+    return {
+      className: 'stat_list_income',
+        name: '收入'
+    }
+  }
+}
+module.exports.type = payType;
